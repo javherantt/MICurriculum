@@ -1,0 +1,81 @@
+	#disp{
+		display: inline-flex;
+	}
+	
+	#contact{
+		width: 370px;	
+		background-color: #343d59;
+		position: fixed;
+		color: white;
+		text-align: center;	
+		height: 100%;	
+	}
+	
+
+	#info{			
+		width: 80%;
+		margin-top: 5px;
+		align-items: center;
+		margin-left: 370px;
+	}
+
+	#picture{
+		width: 190px;
+		height: auto;
+		border-radius: 240px;
+		border:8px solid #343d54;
+		margin: 15px;
+		margin-bottom: 5px;		
+	}
+
+	.cajaContact{
+		border: 1px solid white;
+		width: 100px;
+		height: 100%
+		padding: 7px;
+		margin-left: 100px;	
+		margin-top: 40px;
+	}
+
+	.divSub{
+		width: 100px;
+		margin: 15px;
+	}
+
+	.cajaInfo{
+		border: 1.5px solid black;
+		width: 100px;
+		margin-left: 200px;		
+		text-align: center;	
+	
+	}	
+
+	.textInfo{
+		text-align: justify;
+		margin-left: 22px;
+		margin-right: 22px;
+	}	
+
+	.phone { list-style-image: url("img/phone.ico"); }
+
+	.address{ list-style-image: url(img/address.ico); }
+
+	.mail{ list-style-image: url(img/mail.ico); }
+
+
+	#info > p
+	{
+		text-align: center;
+		margin-top: 3px;
+	}
+
+	p > #info{
+		margin-top: 5px;
+	}
+	li { 
+		text-align: left;
+		padding: 3px;
+		padding-left: 5px;
+		margin: 0px 15px 0px 15px;
+	}	
+
